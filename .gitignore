@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.vagrant
+cache.properties
+.settings
+/vendor
+/html
+/vm
+/doc
+/var

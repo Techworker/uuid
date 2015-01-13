@@ -1,0 +1,27 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="true"
+         bootstrap="lib/Techworker/Uuid/Tests/bootstrap.php"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         syntaxCheck="false">
+    <testsuites>
+        <testsuite name="Techworker Guid Tests">
+            <directory>lib/Techworker/Uuid/Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+    </filter>
+    <logging>
+        <!--log type="coverage-html" target="var/phpunit/coverage" title="Nano" charset="UTF-8" yui="true" highlight="true"></log>
+        <log type="coverage-clover" target="../var/phpunit/clover.xml"/>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+        <log type="junit" target="../var/phpunit/junit.xml" logIncompleteSkipped="false"/-->
+    </logging>
+</phpunit>

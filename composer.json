@@ -1,0 +1,24 @@
+{
+    "name": "techworker/uuid",
+    "type": "library",
+    "description": "PHP library to create UUIDs as defined in RFC 4122 or custom UUIDs.",
+    "keywords": ["uuid", "guid"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Ansbach",
+            "email": "benjaminansbach@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Techworker\\": "lib/Techworker"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    }
+}
