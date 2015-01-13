@@ -7,6 +7,8 @@ This class/namespace provides the functionality to create and import UUIDs (Univ
 
 I have not tagged this library at all, because I did not use it in production so far and, well, nobody else ever used it by now. So if you want a tagged stable release, give me some feedback.
 
+Testing is incomplete too :-/
+
 ### Limitations
 
 For versions 1 and 2 we need the MAC Address. The class will not try to read the MAC address of the host system since this will produce OS specific code which I cannot guarantee to be executed with success. You have to provide that data by yourself. See [http://de.wikipedia.org/wiki/MAC-Adresse#Ermitteln_und_Vergabe_einer_MAC-Adresse] on how the different Systems provide access to the MAC - its german language but I think you'll get the point.
